@@ -7,16 +7,15 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    background-color: ${({theme }) => theme.COLORS.BACKGROUND_600};
-    color: ${({theme }) => theme.COLORS.WHITE};
+  :root {
+    font-size: 62.5%;
+  }
 
+  body {
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, button, textarea {
-    font-family: 'Roboto Slab', serif;
-    font-size: 16px;
     outline: none;
   }
 

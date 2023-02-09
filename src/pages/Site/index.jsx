@@ -1,7 +1,11 @@
-import styled from "styled-components";
+import { Container } from "./styles";
+
+import { Button } from "../../components/ButtonWhatsApp";
 
 export function Site() {
-  return (
-    <h1>ola</h1>
+  return(
+  <Container>
+    <Button title="WHATSAPP"/>
+  </Container>
   )
 }
