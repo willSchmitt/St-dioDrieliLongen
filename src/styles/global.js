@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import backgroundPage from '../assets/backgroundButton.png'
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -13,6 +15,9 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    background: url(${backgroundPage});
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   body, input, button, textarea {

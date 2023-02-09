@@ -17,7 +17,7 @@ export const Container = styled.button`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 1rem;
     
     img {
       width: 18%;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.button`
   height: 11rem;
-  max-width: 35rem;
+  width: 35rem;
 
   border-radius: 2.5rem;
   border: none;
@@ -14,13 +14,15 @@ export const Container = styled.button`
 
   .btn-primary {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
-    
+    gap: 1rem;
+
+    margin-left: 15%;
+    max-width: 75%;
+
     img {
-      width: 18%;
+      width: 25%;
     }
   }
 
@@ -30,7 +32,6 @@ export const Container = styled.button`
     font-size: 2rem;
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 700;
-
 
     color: ${({theme}) => theme.COLORS.WHITE}
   }
