@@ -11,7 +11,7 @@ export function ArriveVideo() {
         </a>
       </div>
         <h1>COMO CHEGAR</h1>
-        <video src=""></video>
+        <video autoPlay controls width="900" preload src="/src/assets/videoClinica.mp4"></video>
     </Container>
   )
 }

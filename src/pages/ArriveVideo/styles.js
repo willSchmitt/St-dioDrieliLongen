@@ -16,4 +16,14 @@ export const Container = styled.div`
       
       margin: 6rem;
     }
+
+    video {
+      border: 2px solid black;
+      
+      display: flex;
+      margin: 0 auto;
+      box-shadow: 2px 2px 2px black;
+
+      border-radius: 2rem;
+    }
 `;

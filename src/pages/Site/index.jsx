@@ -6,10 +6,13 @@ import { ButtonWhats } from "../../components/ButtonWhatsApp";
 import { ButtonDiary } from "../../components/ButtonDiary";
 import {ButtonMap} from "../../components/ButtonMap";
 import { ButtonVideo } from "../../components/ButtonVideo";
+import { Slide } from "../../components/Slide";
 
 export function Site() {
   return(
   <Container>
+    <Slide />
+
     <section className="infosClinic">
       <h1>COMO PODEMOS TE AJUDAR?</h1>
 

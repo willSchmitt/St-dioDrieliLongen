@@ -8,9 +8,9 @@ export const Container = styled.button`
   border-radius: 2.5rem;
   border: none;
 
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 4px 4px 4px ${({theme}) => theme.COLORS.GRAY};
 
-  background-color: red;
+  background-color: ${({theme}) => theme.COLORS.BLACK};
 
   .btn-primary {
     display: flex;

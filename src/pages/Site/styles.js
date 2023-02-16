@@ -7,6 +7,8 @@ export const Container = styled.div`
     align-items: center;
     gap: 4rem;
 
+    margin-bottom: 3rem;
+
     h1 {
       font-size: 4.5rem;
       font-family: 'Voga', sans-serif;

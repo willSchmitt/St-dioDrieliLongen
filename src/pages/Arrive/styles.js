@@ -25,5 +25,9 @@ export const Container = styled.div`
 
       padding-top: 8rem;
       
+      iframe {
+        border: 0;
+        box-shadow: 2px 2px 2px black;
+      }
   }
 `;
