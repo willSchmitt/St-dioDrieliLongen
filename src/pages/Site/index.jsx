@@ -12,7 +12,6 @@ import imageLogo from '../../assets/imagemCapa.jpeg'
 export function Site() {
   return(
   <Container>
-    <h1>OLAAA</h1>
     <div className="logoSite">
       <img src={imageLogo} alt="" />
     </div>
