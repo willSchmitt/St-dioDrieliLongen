@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  .logoSite img{
+    width: 100%;
+    max-height: 80rem;
+
+    margin-bottom: 3rem;
+  }
+
   .infosClinic {
     display: flex;
     flex-direction: column;
@@ -15,6 +22,21 @@ export const Container = styled.div`
       font-weight: 700;
       
       margin: 3rem;
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    .infosClinic {
+      h1 {
+        text-align: center;
+      }
+    }
+
+  }
+
+  @media screen and (max-width:320px) {
+    .infosClinic {
+      width: 100vw;
     }
   }
 `;

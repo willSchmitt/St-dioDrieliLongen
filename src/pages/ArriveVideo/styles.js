@@ -18,12 +18,56 @@ export const Container = styled.div`
     }
 
     video {
-      border: 2px solid black;
       
       display: flex;
       margin: 0 auto;
-      box-shadow: 2px 2px 2px black;
 
-      border-radius: 2rem;
     }
+
+    @media screen and (max-width: 1400px) {
+        video {
+          margin: 0 auto;
+          padding: 8rem;
+        }
+    }
+
+    @media screen and (max-width: 1170px) {
+      video {
+        position: relative;
+        padding: 10rem;
+        left: 0;
+      }
+    }
+
+    @media screen and (max-width:800px) {
+      video {
+        width: 80rem;
+      }
+    }
+
+    @media screen and (max-width: 600px) { 
+      .back {
+        position: relative;
+      }
+
+      .infos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 6rem;
+      }
+
+      video {
+        padding: 0;
+
+        width: 40rem;
+        margin: 0 auto;
+
+        position: relative;
+      }
+
+}
 `;

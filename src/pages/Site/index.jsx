@@ -6,12 +6,16 @@ import { ButtonWhats } from "../../components/ButtonWhatsApp";
 import { ButtonDiary } from "../../components/ButtonDiary";
 import {ButtonMap} from "../../components/ButtonMap";
 import { ButtonVideo } from "../../components/ButtonVideo";
-import { Slide } from "../../components/Slide";
+
+import imageLogo from '../../assets/imagemCapa.jpeg'
 
 export function Site() {
   return(
   <Container>
-    <Slide />
+
+    <div className="logoSite">
+      <img src={imageLogo} alt="" />
+    </div>
 
     <section className="infosClinic">
       <h1>COMO PODEMOS TE AJUDAR?</h1>
