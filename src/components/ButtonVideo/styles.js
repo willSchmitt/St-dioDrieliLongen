@@ -19,8 +19,8 @@ export const Container = styled.button`
     justify-content: center;
     gap: 1rem;
     
-    img {
-      width: 18%;
+    svg {
+      color: white;
     }
   }
 
