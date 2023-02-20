@@ -21,8 +21,8 @@ export const Container = styled.button`
     margin-left: 15%;
     max-width: 75%;
 
-    img {
-      width: 25%;
+    svg {
+      color: white;
     }
   }
 
