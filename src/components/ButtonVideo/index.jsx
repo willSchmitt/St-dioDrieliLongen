@@ -1,13 +1,13 @@
 import {Container} from './styles';
 
-import {MdOutlineLocationOn} from 'react-icons/md'
+import {BiHomeHeart} from 'react-icons/bi';
 
 export function ButtonVideo({title, ...rest}) {
   return (
     <Container {...rest} type="button">
       <a target="_blank" href="/">
         <div class="btn-primary">
-          <MdOutlineLocationOn size={80}/>
+          <BiHomeHeart size={80}/>
           <small>{title}</small>
         </div>
       </a>
