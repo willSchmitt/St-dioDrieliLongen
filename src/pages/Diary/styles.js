@@ -53,5 +53,17 @@ export const Container = styled.div`
       color: ${({theme}) => theme.COLORS.WHITE};
   }
 
+  @media screen and (max-width: 768px){
+    .back a {
+      position: absolute;
+      right: 1rem;
+      top: .1rem;
+    }
+
+    .buttonsDownload {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   
 `;

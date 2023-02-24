@@ -25,23 +25,23 @@ export const Container = styled.div`
     }
 
     @media screen and (max-width: 1400px) {
-        video {
+        iframe {
           margin: 0 auto;
           padding: 8rem;
         }
     }
 
     @media screen and (max-width: 1170px) {
-      video {
+      iframe {
         position: relative;
-        padding: 10rem;
         left: 0;
       }
     }
 
     @media screen and (max-width:800px) {
-      video {
-        width: 80rem;
+      iframe {
+        width: 45rem;
+        height: 50rem;
       }
     }
 
