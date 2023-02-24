@@ -13,7 +13,16 @@ export function ArriveVideo() {
       </div>
         <h1>COMO CHEGAR</h1>
       </div>
-        <video autoPlay={true} controls width="900" preload src="/src/assets/videoClinica.mp4"></video>
+      <iframe 
+        width="760" 
+        height="515" 
+        src="https://www.youtube.com/embed/FBFLzwoKDJ8" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+          
     </Container>
   )
 }

@@ -17,7 +17,7 @@ export const Container = styled.div`
       margin: 6rem;
     }
 
-    video {
+    iframe {
       
       display: flex;
       margin: 0 auto;

@@ -18,8 +18,12 @@ export function Site() {
 
     <section className="infosClinic">
       <h1>COMO PODEMOS TE AJUDAR?</h1>
+      
+      <Link to="/diary">
+        <ButtonDiary title="AGENDAMENTO ON-LINE" />
+      </Link>
 
-      <ButtonDiary title="AGENDAMENTO ON-LINE" />
+
       <ButtonWhats title="WHATSAPP" />
 
       <Link to="/arrive">
